@@ -1,0 +1,103 @@
+/* Page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #eef4fb;
+}
+
+/* Header */
+.site-header {
+    background: linear-gradient(90deg, #1a4fa3, #3a86ff);
+    padding: 15px 0;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-list a:hover {
+    color: #ffd166;
+}
+
+/* Section */
+.section-content {
+    text-align: center;
+    padding: 40px;
+}
+
+.section-content h2 {
+    color: #1a4fa3;
+}
+
+/* Landmark layout */
+.landmark-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 40px;
+}
+
+/* Landmark cards */
+.landmark {
+    background: white;
+    width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Statue card (top of pyramid) */
+.statue {
+    flex-basis: 100%;
+    max-width: 350px;
+}
+
+/* Hover animation */
+.landmark:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+
+/* Images */
+.landmark img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Titles */
+.landmark h3 {
+    color: #3a86ff;
+    margin-top: 15px;
+}
+
+/* Intro Section */
+.intro-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Image under the text */
+.intro-section img {
+    width: 60%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
+}
